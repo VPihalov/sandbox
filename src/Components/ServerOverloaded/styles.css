@@ -1,0 +1,14 @@
+.upload_funcion {
+    font-weight: bold;
+    color: red;
+}
+
+.upload_server {
+    display: flexbox;
+    text-align: center;
+    width: 50%vw;
+}
+
+.upload_main {
+    /* width: 50vw; */
+}

@@ -1,0 +1,2 @@
+We have async functions collection, e.g. for uploaded some files to server.
+We need to write function that try to run every async function, and if there will be fail to upload it to server, than wait and try again untill all functions will be ready
