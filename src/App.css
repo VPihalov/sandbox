@@ -15,24 +15,49 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 7vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: center;
+  height: 88vh;
+  width: 100wv;
+  display: flex;
+}
+
+.App-nav {
+  width:20%;
+  background-color: #aaaaaa;
+}
+
+.App-content {
+  width:80%;
+  background-color: #c1c1c1;
+}
+
+.App-footer {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

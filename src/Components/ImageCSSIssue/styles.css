@@ -1,0 +1,61 @@
+/* Base css condition */
+.class-name {
+	width: 600px;
+  margin: 10px auto;
+  border: 2px solid black;
+}
+
+/* What is the bottom gap between bottom border of kitten and bottom border of block?
+How to solve this? */
+/* Solving - define image as block */
+
+/* .kitten {
+	display: block;
+} */
+
+/* How to center image? */
+/* Solving (first approach) - define image as block and define margin */
+
+/* .kitten {
+	display: block;
+  margin: 10px auto;
+} */
+
+/* Solving (second approach) - define div as flex */
+/* And why fixed gap between bottom border of kitten and bottom border of block? Solving -in display */
+/* .class-name {
+	width: 600px;
+  margin: 10px auto;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;   
+} */
+
+/* How to place whole div in top right corner of view-port? */
+/* SOlving - positio + top + right */
+/* .class-name {
+	width: 600px;
+  margin: 10px auto;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center; 
+	position: fixed;
+	top: 0;
+	right: 0;  
+} */
+
+/* How to make img as quadrant? */
+.class-name {
+	width: 200px;
+	height: 200px;
+  margin: 10px auto;
+	border: 2px solid black; 
+	overflow: hidden;
+}
+/* and then how to fit img in div? */
+/* .kitten {
+	height: 100%;
+	width: 100%;
+} */
+/* and how to place img in center of div? */
+/* Solution - with object-fit property */

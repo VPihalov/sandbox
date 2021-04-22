@@ -1,0 +1,27 @@
+.main {
+	width: 100%;
+	height: 100%;
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center; 
+	justify-content: center; 
+	overflow: auto;  
+}
+
+
+
+/* 1. First Bob should be blue */
+div.class-name span b {color: blue}
+
+/* 3. Third Bob should be brown */
+.class-name ~ div {color: brown}
+
+/* 2. Second Bob should be yellow */
+.class-name + div span b {color: yellow}
+
+/* Base condition: Default styles */
+.class-name span b {color: green}

@@ -1,0 +1,2 @@
+There are some promises that fetching data from some endpoints and get it to the widgets that combined by one single widget.
+The problem is to hide loading spinner and show widgets (in our example show 'all done') when all promises done dispite of the rejected or resolved

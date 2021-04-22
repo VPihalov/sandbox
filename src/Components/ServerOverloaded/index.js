@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import asyncFns from './asyncFns';
+import { v4 as uuidv4 } from 'uuid';
 import './styles.css';
 
 const ServerOverloaded = () => {
@@ -41,7 +42,7 @@ const ServerOverloaded = () => {
             <div class='upload_main'>
                 {asyncFns.map(fn => {
                     return (
-                        <div class='upload_server'>
+                        <div class='upload_server' key={uuidv4()}>
                             <span class='upload_funcion'>{fn.name}: </span>    
                             <span> { data[fn.name] && data[fn.name].join(' ,')} </span>  
                             <span style={{fontWeight: 'bold'}}> { data[fn.name] && data[fn.name].length && '.  Attempts: '} { data[fn.name] && data[fn.name].length && data[fn.name].length}</span>  

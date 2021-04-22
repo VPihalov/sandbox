@@ -16,9 +16,11 @@ const Timer = () => {
     
     return (
       <div className="App">
+        <p>Timer with function react component, that start timer when press on Start button and stop it when press on Stop button</p>
+          <hr></hr>
           <button onClick={handleStart}>Start</button>
           <button onClick={handleStop}>Stop</button>
-          <div>{counter}</div>
+        <div>{counter}</div>
       </div>
     );
 };

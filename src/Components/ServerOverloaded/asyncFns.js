@@ -12,13 +12,13 @@ const First_Upload = () => {
 
 const Second_Upload = () => {
 	return new Promise((res, rej) => {
-  	setTimeout(() => {
-        if(Math.random() > 0.5) {
-            res('resolved')
-        } else {
-            rej('rejected')
-        }
-  	}, 1500)
+        setTimeout(() => {
+            if(Math.random() > 0.5) {
+                res('resolved')
+            } else {
+                rej('rejected')
+            }
+        }, 1500)
   })
 };
 

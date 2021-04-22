@@ -1,0 +1,1 @@
+Base conditions and tasks with solutions are described in styles.css
